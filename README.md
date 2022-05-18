@@ -1,25 +1,26 @@
   ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name : [Your Project Name]. 
+# Project Name : Leaderboard. 
 
-> An app to manage tasks. A user can add, delete and edit a task and mark it as completed, It uses simple GUI and relies on DOM manipulation in pure JS and using local storage.
+>The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
-> In this project, I will build a simple HTML list of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
+> In this project, I will build a simple leaderboard dynamic page. The app will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
 
-[![Capstone intro](https://img.youtube.com/vi/AcUd-_Yjjqg/0.jpg)](https://www.youtube.com/watch?v=AcUd-_Yjjqg)
+[![Capstone intro](https://raw.githubusercontent.com/microverseinc/curriculum-javascript/main/leaderboard/images/leaderboard_wireframe.png?token=GHSAT0AAAAAABPZT5JKQZVTT43Y36XYZOD6YUFLP5Q)](https://khitermedachraf.github.io/Leaderboard/)
 
 ## Built With ⚒
 
 - HTML
 - Basic CSS 
-- **JavaScript** and  **ES6 syntax**
+- **JavaScript** and  **ES6 syntax** & **modules**
+- Use **callbacks** and **promises**.
 - **Webpack**
 - Linters (Lighthouse, Webhint, Stylelint, Eslint)
 - Git/GitHub work-flow
 
 ## :red_circle: Live Demo (If availabale)
 
-[Live Demo Link](https://github.com/khitermedachraf/My-readme-template/blob/main/README.md)
+[Live Demo Link](https://khitermedachraf.github.io/Leaderboard/)
 
 ## Project requirements 🕜
 
