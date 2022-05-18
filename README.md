@@ -24,12 +24,14 @@
 
 ## Project requirements 🕜
 
-You will need to implement the following functionalities (presented in the video above):
-- Adding a new item.
-- Removing a selected item.
-- Marking a selected item as complete.
-- Removing all items marked as complete at once.
-- Reordering a selected item (as drag-and-drop) _[as an additional feature]_.
+You will be building the leaderboard website during the whole week. Here is the list of projects that will guide you through the steps described above. You will find details about each of the milestone requirements in the upcoming program activities.
+
+- Project 1: basic page structure.
+  - IMPORTANT NOTE This is the first time you will use Gitflow. Keep that in mind!
+  - Create an npm project with webpack. (If you need a refresher, check the previous project or webpack exercise).
+  - Write plain HTML markup with minimum styling (just to make the layout), because you will implement styles in the following steps. Use the above wireframe as a guide.
+- Project 2: send and receive data from API.
+- Project 3: final touches.
 
 ## Getting Started 🔰
 
@@ -37,11 +39,11 @@ To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Clone this project by the command: 
 ```
-git clone git@github.com:khitermedachraf/Awesome-books-ES6.git
+git clone git@github.com:khitermedachraf/Leaderboard.git
 ```
 - Then go to the main folder using the next command:
 ```
-cd Awesome-books-ES6.git
+cd Leaderboard.git
 ```
 - Finally, run diplay the index.html file in your local browser, or also, you can use Live Server in Visual Studio Code.
 
@@ -81,6 +83,7 @@ npm install
 
 - For anyone who wants to Use **webpack to bundle JavaScript.**
 - For anyone who wants to practice html5, css3 and or vanilla JavaScript
+- For anyone who wants to **ES6** Concepts, **modules**, **callbacks**, **promices** and **API** Services.
 - For anyone who wants to create his own Web devlopment course site.
 
 ### Run tests 🧪
