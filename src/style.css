@@ -1,7 +1,17 @@
-body {
-  background-color: bisque;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.hello {
-  color: red;
+body {
+  padding: 2rem;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 30px;
+  background-color: #000;
+  color: #ff5aac;
 }
