@@ -10,9 +10,12 @@
 
 body {
   padding: 2rem;
+
   /* font-family: "Cinzel Decorative", cursive; */
   font-size: 30px;
+
   /* background-color: #008b8b; */
+
   /* color: #fff; */
 }
 
@@ -38,6 +41,7 @@ button {
   font-size: large;
   font-weight: bold;
 }
+
 button.refresh,
 .flex-row h2 {
   margin-left: 3em;
@@ -65,6 +69,7 @@ input {
 .add-score h2 {
   text-align: center;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -80,6 +85,7 @@ input {
   font-size: large;
   margin: 0.5em 1em;
 }
+
 input:focus {
   border: 3px solid grey;
   outline: none;
