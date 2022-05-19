@@ -24,12 +24,13 @@ main {
 
 .flex-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 button {
   min-width: 85px;
+  max-width: 250px;
   padding: 8px;
   margin: 1em;
   border-radius: 4px;
@@ -37,6 +38,11 @@ button {
   font-size: large;
   font-weight: bold;
 }
+button.refresh,
+.flex-row h2 {
+  margin-left: 3em;
+}
+
 button:hover {
   cursor: pointer;
   background-color: lightgray;
@@ -51,8 +57,30 @@ li:nth-child(2n) {
   background: lightgray;
 }
 
-ul.scores-list {
+ul.scores-list,
+input {
   border: 3px solid black;
 }
 
+.add-score h2 {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 
+input {
+  width: 350px;
+  min-width: 250px;
+  height: 3em;
+  padding: 3px 6px;
+  font-size: large;
+  margin: 0.5em 1em;
+}
+input:focus {
+  border: 3px solid grey;
+  outline: none;
+}
