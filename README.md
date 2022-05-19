@@ -6,7 +6,7 @@
 
 > In this project, I will build a simple leaderboard dynamic page. The app will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
 
-[![Capstone intro](https://raw.githubusercontent.com/microverseinc/curriculum-javascript/main/leaderboard/images/leaderboard_wireframe.png?token=GHSAT0AAAAAABPZT5JKQZVTT43Y36XYZOD6YUFLP5Q)](https://khitermedachraf.github.io/Leaderboard/)
+![leaderboard design](./src/assets/img/leaderboard_wireframe.png)
 
 ## Built With ⚒
 
