@@ -10,8 +10,14 @@
 
 body {
   padding: 2rem;
-  font-family: "Cinzel Decorative", cursive;
+  /* font-family: "Cinzel Decorative", cursive; */
   font-size: 30px;
-  background-color: #000;
-  color: #ff5aac;
+  /* background-color: #008b8b; */
+  /* color: #fff; */
+}
+
+main {
+  display: flex;
+  margin: 2em 0;
+  justify-content: space-around;
 }
