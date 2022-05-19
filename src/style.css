@@ -21,3 +21,38 @@ main {
   margin: 2em 0;
   justify-content: space-around;
 }
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  min-width: 85px;
+  padding: 8px;
+  margin: 1em;
+  border-radius: 4px;
+  border: 3px solid black;
+  font-size: large;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+ul li {
+  list-style: none;
+  padding: 4px 8px;
+}
+
+li:nth-child(2n) {
+  background: lightgray;
+}
+
+ul.scores-list {
+  border: 3px solid black;
+}
+
+
