@@ -36,12 +36,8 @@ class FetchAPI {
       body: JSON.stringify(object),
     })
       .then((response) => response.json())
-      .then((data) => {
-        console.log('Success:', data);
-      })
-      .catch((error) => {
-        console.error('Error:', error);
-      });
+      .then((data) => data)
+      .catch((error) => error);
   }
 }
 export default FetchAPI;
