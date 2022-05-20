@@ -2,13 +2,13 @@
 import { scoresList } from './variables.js';
 
 class FetchAPI {
-  static async fetchData(id = 'Zl4d7IVkemOTTVg2fUdz') {
-    const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores/`;
+  static async fetchData() {
     try {
-      const response = await fetch(url);
+      const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/I5zbUnax7uOS1kQCeVNl/scores/');
       const result = await response.json();
+      scoresList.innerHTML = '';
       scoresList.classList.add('list');
-      for (let index = 0; index < 199; index++) {
+      for (let index = 0; index < result.result.length; index++) {
         const object = result.result[index];
         const li = document.createElement('li');
         li.textContent = `${object.user} : ${object.score}.`;
@@ -21,6 +21,27 @@ class FetchAPI {
       // Handle errors here
       return err;
     }
+  }
+
+  static async postData(name, score) {
+    const object = {
+      user: name,
+      score,
+    };
+    fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/I5zbUnax7uOS1kQCeVNl/scores/', {
+      method: 'POST', // or 'PUT'
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(object),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log('Success:', data);
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
   }
 }
 export default FetchAPI;

@@ -7,9 +7,10 @@ import FetchAPI from './modules/fetchApi.js';
 FetchAPI.fetchData();
 
 refreshBtn.addEventListener('click', () => {
+  FetchAPI.fetchData();
 });
 
 submithBtn.addEventListener('click', (event) => {
   event.preventDefault();
-  console.log('submit');
+  FetchAPI.postData(name.value, score.value);
 });
