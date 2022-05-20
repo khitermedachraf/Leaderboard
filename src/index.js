@@ -1,4 +1,15 @@
 import './style.css';
-// import * as variables from './modules/variables.js';
-// import * as fetchApi from './modules/fetchApi.js';
-// import * as displayData from './modules/displayData.js';
+import {
+  refreshBtn, submithBtn, name, score,
+} from './modules/variables.js';
+import FetchAPI from './modules/fetchApi.js';
+
+FetchAPI.fetchData();
+
+refreshBtn.addEventListener('click', () => {
+});
+
+submithBtn.addEventListener('click', (event) => {
+  event.preventDefault();
+  console.log('submit');
+});
