@@ -31,6 +31,12 @@ You will be building the leaderboard website during the whole week. Here is the 
   - Create an npm project with webpack. (If you need a refresher, check the previous project or webpack exercise).
   - Write plain HTML markup with minimum styling (just to make the layout), because you will implement styles in the following steps. Use the above wireframe as a guide.
 - Project 2: send and receive data from API.
+  - Read the [Leaderboard API documentation](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) to learn how to use this API.
+  - Create a new game with the name of your choice by using the API.
+  - Implement the "Refresh" button (receiving data from the API and parsing the JSON).
+  - Implement the form "Submit" button (sending data to the API).
+  - Use `async` and `await` JavaScript features to consume the API.
+  - No styling is required.
 - Project 3: final touches.
 
 ## Getting Started 🔰
@@ -77,6 +83,18 @@ npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-i
  - For the **node modules** and **Packages.json** dependencies use:
  ```
 npm install
+```
+- **Build** the app using **Webpack**
+ ```
+npm run build
+```
+- **Run** the app using **Webpack**
+ ```
+npm start
+```
+- **Watch** the app changes using **Webpack**
+ ```
+npm run watch
 ```
 
 ### Usage 🎯
