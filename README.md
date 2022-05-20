@@ -20,7 +20,7 @@
 
 ## :red_circle: Live Demo (If availabale)
 
-[Live Demo Link](https://khitermedachraf.github.io/Leaderboard/)
+[Live Demo Link](https://khitermedachraf.github.io/Leaderboard/dist/)
 
 ## Project requirements 🕜
 
