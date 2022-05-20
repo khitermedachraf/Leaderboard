@@ -8,8 +8,10 @@ class FetchAPI {
       const result = await response.json();
       scoresList.innerHTML = '';
       scoresList.classList.add('list');
-      for (let index = 0; index < result.result.length; index++) {
-        const object = result.result[index];
+      const resultArray = result.result;
+      resultArray.sort((a, b) => parseFloat(b.score) - parseFloat(a.score));
+      for (let index = 0; index < resultArray.length; index++) {
+        const object = resultArray[index];
         const li = document.createElement('li');
         li.textContent = `${object.user} : ${object.score}.`;
         scoresList.appendChild(li);
