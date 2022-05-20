@@ -13,7 +13,7 @@ class FetchAPI {
       for (let index = 0; index < resultArray.length; index++) {
         const object = resultArray[index];
         const li = document.createElement('li');
-        li.textContent = `${object.user} : ${object.score}.`;
+        li.textContent = ` ${index + 1} -| ${object.user} : ${object.score}.`;
         scoresList.appendChild(li);
       }
       return result;
