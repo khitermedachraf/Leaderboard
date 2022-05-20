@@ -9,19 +9,18 @@
 }
 
 body {
-  padding: 2rem;
-
-  /* font-family: "Cinzel Decorative", cursive; */
+  font-family: "Cinzel Decorative", cursive;
   font-size: 30px;
-
-  /* background-color: #008b8b; */
-
-  /* color: #fff; */
+  background-color: #008b8b;
+  color: #fff;
 }
 
+header {
+  margin-top: 1rem;
+}
 main {
   display: flex;
-  margin: 0.5em 0;
+  margin-bottom: 0.5em;
   justify-content: space-around;
 }
 
@@ -53,13 +52,14 @@ button:hover {
 }
 
 ul {
-  height: 430px;
+  height: 395px;
   overflow: auto;
 }
 
 ul li {
   list-style: none;
   padding: 4px 8px;
+  color: black;
 }
 
 li:nth-child(2n) {
