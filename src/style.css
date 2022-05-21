@@ -19,6 +19,7 @@ header {
   margin-top: 1rem;
   text-align: center;
 }
+
 main {
   display: flex;
   margin-bottom: 0.5em;
@@ -105,7 +106,7 @@ input:focus {
 
 footer {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
   background-color: lightgray;
   color: black;
