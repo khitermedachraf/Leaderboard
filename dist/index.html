@@ -3,16 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <title>Leaderboard App</title>
   <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
   <body>
     <header>
-      <h1>Leaderboard</h1>
+      <h1><i class="ri-vip-crown-line"></i>Leaderboard</h1>
     </header>
     <main>
       <section class="recent-score">
         <div class="flex-row">
-          <div><h2>Recent scores</h2></div>
+          <div>
+            <h3>Higher Recent Scores</h3>
+          </div>
           <div><button type="button" class="refresh">Refresh</button></div>
         </div>
         <div>
@@ -33,5 +39,12 @@
         </form>
       </section>
     </main>
+    <footer>
+      <small>
+        &copy; 2022 Made by
+        <a href="https://github.com/khitermedachraf/">Achraf KHITER</a>.
+        <i class="ri-github-fill"></i>
+      </small>
+    </footer>
   </body>
 </html>
