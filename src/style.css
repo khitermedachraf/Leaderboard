@@ -9,19 +9,20 @@
 }
 
 body {
-  padding: 2rem;
-
-  /* font-family: "Cinzel Decorative", cursive; */
+  font-family: "Cinzel Decorative", cursive;
   font-size: 30px;
+  background-color: #008b8b;
+  color: #fff;
+}
 
-  /* background-color: #008b8b; */
-
-  /* color: #fff; */
+header {
+  margin-top: 1rem;
+  text-align: center;
 }
 
 main {
   display: flex;
-  margin: 0.5em 0;
+  margin-bottom: 0.5em;
   justify-content: space-around;
 }
 
@@ -53,13 +54,14 @@ button:hover {
 }
 
 ul {
-  height: 430px;
+  height: 395px;
   overflow: auto;
 }
 
 ul li {
   list-style: none;
   padding: 4px 8px;
+  color: black;
 }
 
 li:nth-child(2n) {
@@ -94,4 +96,23 @@ input {
 input:focus {
   border: 3px solid grey;
   outline: none;
+}
+
+.ri-vip-crown-line {
+  font-size: 80%;
+  margin: 0 1rem;
+  color: gold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+}
+
+.ri-github-fill {
+  margin: auto 5px;
 }

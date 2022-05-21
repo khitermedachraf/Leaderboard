@@ -13,4 +13,6 @@ refreshBtn.addEventListener('click', () => {
 submithBtn.addEventListener('click', (event) => {
   event.preventDefault();
   FetchAPI.postData(name.value, score.value);
+  name.value = '';
+  score.value = '';
 });
